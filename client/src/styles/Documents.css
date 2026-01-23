@@ -1,0 +1,54 @@
+.documents-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.documents-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.documents-header h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.form-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.filter-section label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.filter-section select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.no-documents {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+}
